@@ -1,0 +1,8 @@
+https web server (signaling + html) is listening
+New connection from ::ffff:192.168.1.39:19633
+USUARI ID -> YTGogGGsjDjQZ2GPAAAA || CONNECT
+New connection from ::ffff:192.168.1.33:40208
+USUARI ID -> nXtSCehGqDkBbHTdAAAB || CONNECT
+USUARI ID -> YTGogGGsjDjQZ2GPAAAA || DISCONNECT
+USUARI ID -> nXtSCehGqDkBbHTdAAAB || DISCONNECT
+ALL USERS DELETED FROM USER LIST

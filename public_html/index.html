@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>Local PeerConnection() example</title>
+	<meta charset="utf-8"/>
+	<!-- PRACTICA 3 -->
+	<!-- Estil general -->
+    <link rel="stylesheet" href="css/estil_general.css">
+</head>
+
+<body>
+
+<table border="0" width="100%" style="margin-top: 20px;">
+	<tr>
+		<th  class="border_class">
+			Local video
+		</th>
+		<th  class="border_class">
+			'Remote' video
+		</th>
+	</tr>
+	<tr>
+		<td class="video_class">
+			<video id="localVideo" autoplay></video>
+		</td>
+		<td class="video_class">
+			<video id="remoteVideo" autoplay></video>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 15px;">
+			<div>
+				<button id="startButton">Start</button>
+				<button id="callButton">Call</button>
+				<button id="hangupButton">Hang Up</button>
+			</div>
+
+		</td>
+		<td>
+			<!-- void -->
+		</td>
+	</tr>
+</table>
+<table border="0" width="100%">
+	<tr>
+		<th class="border_class">
+			Local channel
+		</th>
+		<th class="border_class">
+			'Remote' channel
+		</th>
+	</tr>
+	<tr>
+		<th class="channel_class">
+			<textarea id="dataChannelSend" disabled placeholder="1: Press Start; 2: Press Call; 3: Enter text; 4: Press Send."></textarea>
+			<div id="buttons">
+				<button id="sendButton">Send</button>
+			</div>
+		</th>
+		<th class="channel_class">
+			<textarea id="dataChannelReceive" disabled></textarea>
+		</th>
+	</tr>
+</table>
+
+<script src="js/socket.io.js"></script>
+<script src="js/localPeerConnection-lib.js"></script>
+<script src="js/localPeerConnection.js"></script>
+
+</body>
+
+</html>

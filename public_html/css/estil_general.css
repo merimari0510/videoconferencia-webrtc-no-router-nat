@@ -1,0 +1,39 @@
+#startButton, #callButton, #hangupButton, #sendButton {
+	padding: 10px 17px;
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    font-size: 16px;
+}
+
+#dataChannelReceive, #dataChannelSend {
+	padding: 10px 17px;
+    color: #3c763d;
+    font-size: 16px;
+    height: auto;
+    border: 1px solid #d6e9c6;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	cursor: text;
+	min-width: 300px;
+}
+
+#buttons {
+	margin-top: 15px;
+}
+
+th.border_class {
+	border: 1px solid #d6e9c6;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    padding: 5px;
+	width: 50%;
+}
+
+td.video_class, th.channel_class {
+    border: 1px solid #d6e9c6;
+    border-top: 0px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+    padding: 15px;
+    text-align: center;
+}
